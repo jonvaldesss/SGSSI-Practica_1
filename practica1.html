@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Registro de usuarios</title>
+    </head>
+    <body>
+        <h1>Registro de usuarios</h1>
+
+        <form>
+
+            <p>Nombre y apellidos: <input type="text" name="nombreapellidos" placeholder="Introduzca su nombre completo"></p>
+            <p>DNI: <input type="text" name="dni" placeholder="Introduzca su DNI" pattern="[0-9]{8}[A-Za-z]{1}" title="Debe poner 8 números y una letra" /></p>
+            <p>Teléfono: <input type="tel" name="telefono" placeholder="Introduzca su número de teléfono"></p>
+            <p>Fecha de nacimiento: <input type="date" id="start" name="trip-start" value="2018-07-22"></p>
+            <p>Email: <input type="email" name="email" placeholder="Ej.: usuario@servidor.com"></p>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+
+</html>
