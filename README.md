@@ -1,1 +1,0 @@
-# SGSSI-Practica_1
